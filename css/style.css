@@ -1,0 +1,32 @@
+.box img{
+    width: 100%;
+    height: 50%;
+
+}
+.box{
+    border:1px solid black  ;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border-radius:10px;
+    margin: 10px;
+}
+#es{
+    color: red;
+}
+
+#es button{
+    background-color: aqua;
+    border: 1px solid aqua;
+    padding : 6px 12px ;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
